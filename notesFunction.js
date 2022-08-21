@@ -15,6 +15,8 @@ const addNote = (argv) => {
     }
   });
 
+  debugger;
+
   if (sameTitle.length < 1) {
     // push note info in notes
     notes.push({
